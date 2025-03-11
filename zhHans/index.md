@@ -48,5 +48,5 @@ features:
       alt: xArm Accessories
     link: http://docs.accessories.ufactory.cc/zhHans/6_Axis_Force_Torque_Sensor/1.General_Presentation.html
     target: _self
-    details:  六维力矩传感器、BIO机械爪G2、直线滑轨、xArm机械爪、六维力矩传感器、xArm真空吸头
+    details:  六维力矩传感器、BIO机械爪G2、直线滑轨、xArm机械爪、xArm真空吸头
 ---
