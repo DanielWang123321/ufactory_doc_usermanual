@@ -1,8 +1,8 @@
 # 为什么当我调整 Roll 和 Yaw 时机械臂表现相同？
 
-**问题一： 为什么我用SDK获取到的Raw/Pitch/Yaw ，与studio中实时控制页面显示的不一致？**
+**问题一： 为什么我用SDK获取到的Roll/Pitch/Yaw ，与studio中实时控制页面显示的不一致？**
 
-SDK默认读到的是Raw/Pitch/Yaw，而在studio默认显示的轴角Rx,Ry,Rz。 可以通过此页面进行调整，显示为Raw/Pitch/Yaw。
+SDK默认读到的是Roll/Pitch/Yaw，而在studio默认显示的轴角Rx,Ry,Rz。 可以通过此页面进行调整，显示为Roll/Pitch/Yaw。
 
 ![image](assets/img.png)
 
