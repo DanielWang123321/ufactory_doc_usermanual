@@ -47,9 +47,9 @@ features:
       width: 400
       height: 400
       alt: 配件用户手册
-    link: http://docs.accessories.ufactory.cc/zhHans/xArm_Gripper/1.General_Presentation.html
+    link:http://docs.accessories.ufactory.cc/zhHans/6_Axis_Force_Torque_Sensor/1.General_Presentation.html
     target: _self
-    details: xArm机械爪、BIO机械爪G2、直线滑轨、六维力矩传感器
+    details: 六维力矩传感器、BIO机械爪G2、直线滑轨、xArm机械爪、六维力矩传感器、xArm真空吸头
   # - title: Python SDK
   #   icon: 
   #     src: /assets/python.svg
