@@ -55,7 +55,7 @@ const vitePressI18nConfig: any = {
   description: {
     en: 'Documentation for UFACTORY products. It covers user manual, API documentation, support articles and frequently asked questions (FAQs).',
     zhHans:
-      'UFACTORY中文文档库，包括用户手册，API手册，技术支持文章，FAQ。''
+      'UFACTORY中文文档库，包括用户手册，API手册，技术支持文章，FAQ。'
   },
   themeConfig: {
     en: {
