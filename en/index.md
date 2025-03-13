@@ -46,7 +46,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: http://docs.accessories.ufactory.cc/xArm_Gripper/1.Introduction.html
+    link: http://docs.accessories.ufactory.cc/6_Axis_Force_Torque_Sensor/1.Introduction.html
     target: _self
     details: UFACTORY xArm Accessories user manual
 ---
