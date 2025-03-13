@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: zhHans/user_manual/ufactoryStudio/1.preface.html
+      link: user_manual/ufactoryStudio/1.preface.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_usermanual
@@ -20,7 +20,7 @@ features:
       width: 400
       height: 400
       alt: User Manual
-    link: zhHans/user_manual/ufactoryStudio/1.preface.html
+    link: user_manual/ufactoryStudio/1.preface.html
     details: UFACTORY Studio user manual
   - title: 技术支持文档
     icon: 
