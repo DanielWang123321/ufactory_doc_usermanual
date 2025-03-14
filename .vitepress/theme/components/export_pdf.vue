@@ -20,8 +20,8 @@ const PDF_ROUTE_MAP = {
     "zh-CN": "",
   },
   "xArm_Gripper":{
-    "en-US": "",
-    "zh-CN": "",
+    "en-US": "https://www.ufactory.cc/wp-content/uploads/2023/11/xArm-Gripper-User-Manual-V2.2.0.pdf",
+    "zh-CN": "https://www.cn.ufactory.cc/_files/ugd/896670_f9ede1a3f60e46eb9cb385d1e5748414.pdf",
   },
   "xArm_Vacuum_Gripper":{
     "en-US": "",
