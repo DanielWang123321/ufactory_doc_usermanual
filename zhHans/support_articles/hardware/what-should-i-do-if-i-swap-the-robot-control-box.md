@@ -2,13 +2,13 @@
 
 每个 xArm/UF850 都配有一个控制盒，用户可以更换另一个控制盒。 如果更换了控制盒，该怎么办？ 控制盒内是否保存了校准参数？
 
-## 1-配置参数
+## 1.配置参数
 
 可以通过设置-通用设置-高级设置-导出和加载配置文件，轻松实现控制器交换
 
  ![](../assets/26.png)
 
-## 2-Blockly 项目和轨迹文件
+## 2.Blockly 项目和轨迹文件
 
 通过Blockly模块导出和导入项目文件
 
@@ -34,7 +34,7 @@ SN号的前6位代表机械臂的型号
 
 
 
-## 4-不同轴数的机械臂
+## 4.不同轴数的机械臂
 
 如果是不同轴数机械臂需要交换控制器，除了要加载摩擦力参数，还需要刷新控制器固件和软件，具体操作方式请参考[如何切换xarm5/xarm6/xarm7的固件？](https://github.com/xArm-Developer/ufactory_docs/blob/main/cn/support_articles/software/ru-he-qie-huan-xArm5-xArm6-xArm7-de-gu-jian-ban-ben.md)
 
@@ -50,8 +50,8 @@ SN号的前6位代表机械臂的型号
 * 坐标系（word_offset）
 
 2.如何简单判断摩擦力参数是否被成功加载
-1) 您能在 UFactory Studio 软件上看到"轨迹录制"模块。 
-2) 您可以在 "实时控制 "页面启用手动模式。
+1\) 您能在 UFactory Studio 软件上看到"轨迹录制"模块。 
+2\) 您可以在 "实时控制 "页面启用手动模式。
 
 3.xarm的12xx，13xx之间有什么区别？
 
