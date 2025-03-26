@@ -37,9 +37,9 @@ Go to [My Device] - [Check Update], click "Install" to load the offline package 
 
 * Use the xArm-tool-gui tool to do the offline upgrade:
 
-Download the[ xarm-tool-gui ](https://drive.google.com/drive/folders/1WOcMMRXo0XACg48d3BR2Ki-kUKioCyGm?usp=drive\_link)tool, unzip and run it. Enter the IP address of the controller and click \[Connect] button.\
-1) Click \[Firmware] - \[Offline Installation], select the offline firmware package you downloaded in advance, click \[Install], the interface pop-up prompt "Install firmware successfully".\
-2) Click \[xArmStudio] - \[Offline Installation], select the offline package downloaded in advance, click \[Install], the interface will pop up a prompt "Install Studio successfully".\
+Download the[ xarm-tool-gui ](https://drive.google.com/drive/folders/1WOcMMRXo0XACg48d3BR2Ki-kUKioCyGm?usp=drive\_link)tool, unzip and run it. Enter the IP address of the controller and click \[Connect] button.
+1) Click \[Firmware] - \[Offline Installation], select the offline firmware package you downloaded in advance, click \[Install], the interface pop-up prompt "Install firmware successfully".
+2) Click \[xArmStudio] - \[Offline Installation], select the offline package downloaded in advance, click \[Install], the interface will pop up a prompt "Install Studio successfully".
 3) Click \[Reboot Control Box], wait for 2-3 minutes for the controller to finish rebooting and reconnect.
 
 ![](../assets/image(51).png)
