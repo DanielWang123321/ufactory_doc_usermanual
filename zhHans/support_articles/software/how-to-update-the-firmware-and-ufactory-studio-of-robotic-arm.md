@@ -3,9 +3,9 @@
 
 适用型号：xArm 5 Lite, xArm 6, xArm7, Lite6, UFactory 850.
 
- **Notes:**
+ **注意:**
 
-1) 建议同时更新 xArm 固件和 UFactory studio。 
+1) 建议同时更新机械臂固件和 UFactory studio。 
 2) 每次更新前，请仔细查看更新通知。 不建议更新已部署到生产环境的机械臂。
 3) 每次更新后，请从官方网站下载最新的《xArm 用户手册》和《xArm 开发人员手册》，了解最新功能。 如果您使用 xArm-Python SDK（xArm-C++ SDK 或 xArm ROS）进行开发，请从 GitHub 获取最新的 SDK 代码。
 
