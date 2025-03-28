@@ -21,7 +21,9 @@ SDK: https://github.com/xArm-Developer
   进入 “设置-我的设备-检查更新"，点击 ”检查更新“，如果有新版本，点击 “下载”，点击 ”安装“，加载下载的安装包，等待系统重启。 重新启动大约需要 2-3 分钟。
 
 
-![](../assets/22.png)
+![](../assets/update_1.png)
+
+
 
 ## 2.离线升级：当 PC 没有网络连接时。
 
@@ -31,7 +33,9 @@ SDK: https://github.com/xArm-Developer
 
 进入设置-我的设备-检查更新，点击 "安装" 加载预先下载的离线软件包，等待系统重启，需要 2-3 分钟。
 
-![](../assets/23.png)
+![](../assets/update_2.png)
+
+
 
 * 使用 xArm-tool-gui 工具进行离线升级：
 
@@ -42,4 +46,4 @@ SDK: https://github.com/xArm-Developer
 2) 点击【xArmStudio】-【离线安装】，选择事先下载的离线软件包，点击【安装】，界面弹出提示 "安装成功"。
 3) 单击【重启控制盒】，等待 2-3 分钟让控制器完成重启并重新连接。
 
-![](../assets/24.png)
+![](../assets/update_3.png)

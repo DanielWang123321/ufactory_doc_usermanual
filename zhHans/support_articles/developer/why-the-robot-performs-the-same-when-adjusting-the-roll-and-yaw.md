@@ -4,7 +4,9 @@
 
 SDK默认读到的是Roll/Pitch/Yaw，而在studio默认显示的轴角Rx,Ry,Rz。 可以通过此页面进行调整，显示为Roll/Pitch/Yaw。
 
-![image](assets/img.png)
+![image](../assets/RPY.png)
+
+
 
 **问题二： 为什么当我调整 Roll 和 Yaw 时机械臂表现相同？**
 

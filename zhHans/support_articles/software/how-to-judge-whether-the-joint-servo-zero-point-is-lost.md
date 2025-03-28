@@ -24,7 +24,7 @@
 
 4. 等待2-3分钟后，程序将自动生成一个csv文件
 
-![](../assets/3.png)
+![](../assets/e_read_mmu.png)
 
 ## 获取电流图表
 
@@ -44,6 +44,6 @@
 
 电流应该为2A左右，请把截图发我们确认。
 
-![](../assets/4.png)
+![](../assets/blockly_project.png)
 
-![](../assets/5.png)
+![](../assets/current_diagram.png)

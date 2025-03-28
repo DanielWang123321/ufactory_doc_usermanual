@@ -9,7 +9,7 @@ UFactory version: V2.4.0+
 
 Please note that if the arm is not used for a long time(**≥3 months**), you need to power on the arm for 6 hours every 3 months to charge the built-in battery of the arm, otherwise the encoder data may be lost and report S18 error.
 
-![](../assets/image.png)
+![](../assets/S18.png)
 
 ### Status code=0:
 
@@ -19,7 +19,7 @@ There is a status code of S18 error. If the status code is 0, please enter 'Sett
 
 For example, H101D0813V256I3.
 
-![](../assets/image(1).png)
+![](../assets/S18_2.png)
 
 
 

@@ -28,7 +28,7 @@
 
 1）进入“设置-外部设备-Modbus RTU”，选择“115200”，然后保存
 
-![image](../assets/19.png)
+![image](../assets/AG-160-95gripper_2.jpg)
 
 2）发送指令
 

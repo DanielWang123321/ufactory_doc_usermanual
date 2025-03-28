@@ -10,7 +10,7 @@ Reduce the jerk via 'Settings-General-Advanced Settings-Parameters-Jerk'.
 
 
 
- ![](../assets/image(48).png)
+ ![](../assets/joint_tcp_jerk.png)
 
 ### 2. Check whether the robotic arm passes through or near the singularity.
 

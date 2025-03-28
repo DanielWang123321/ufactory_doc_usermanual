@@ -16,13 +16,15 @@ Connect the pin module back to controller's IO.
 
 1\) Enter 'Settings-Externals-Controller IO', CI0 & CI1 should in 1(high level).
 
-![image](../assets/image(5).png)
+![image](../assets/CI0_CI1.png)
 
 
 2\) Switch to 'Robot IO', set TO0 & TO1 to 1(high level).
 
-![](../assets/img.png)
+
+![img_1.png](../assets/TO0_TO1.png)
+
 
 3\) Go back to 'Controller IO',  CI0 & CI1 should be changed to 0(low level).
 
-![image](../assets/img3.png)
+![image](../assets/CI0_CI1_2.png)

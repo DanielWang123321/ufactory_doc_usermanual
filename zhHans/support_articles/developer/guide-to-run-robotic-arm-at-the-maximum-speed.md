@@ -26,7 +26,7 @@ __本文以xArm系列为例__
 1)通过UFactory Studio调整参数
 
 进入"设置-通用设置-高级设置-参数"
-![image](../assets/13.png)
+![image](../assets/joint_tcp_jerk.png)
 
 
 2）通过python SDK调整参数
@@ -37,7 +37,7 @@ __本文以xArm系列为例__
 
 加加速度：set_tcp_jerk() , set_joint_jerk()
 
-```php
+```python
 //code example
 arm.set_tcp_jerk(100000)
 arm.set_joint_jerk(28647, is_radian=True)

@@ -159,7 +159,7 @@ read_csv.py:  读取数据并通过“matplolib”画图
 
 * get_joint_angle_30000.py
 
-```php
+```python
 import time
 import math
 import socket
@@ -250,7 +250,7 @@ print(dur)
 
 * read_csv.py
 
-```php
+```python
 import csv
 import pandas as pd
 import matplotlib.pyplot as plt

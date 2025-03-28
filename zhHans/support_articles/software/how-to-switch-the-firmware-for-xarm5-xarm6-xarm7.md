@@ -14,6 +14,6 @@ xArm5,xArm6,xArm7的控制器是相互兼容的，每个手臂都配有一个控
 
    
 
- ![](../assets/2.png)
+ ![](../assets/refresh_firmware.png)
 
    

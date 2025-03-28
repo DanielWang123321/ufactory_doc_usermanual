@@ -23,7 +23,8 @@ Application scenario: If the TCP payload is set correctly, and the collision det
 3. Enter the IP of the controller, and press enter.
 4. Wait for 2-3 minutes, it will automatically generate a CSV file.
 
-![](../assets/3.png)
+
+![img_1.png](../assets/e_read_mmu.png)
 
 ### Get a diagram of the current
 
@@ -38,7 +39,7 @@ Please follow the steps to check the current of the corresponding joint.
 
 The current should be around 2A, please send the screenshot to [support@ufactory.cc](mailto:support@ufactory.cc) for double check.
 
-![](../assets/image(1)(1)(1)(1)(1).png)
+![](../assets/blockly_project.png)
 
-![](../assets/image(5)(1).png)
+![](../assets/current_diagram.png)
 

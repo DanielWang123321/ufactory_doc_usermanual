@@ -6,15 +6,15 @@ Each xArm/UF850 should come with a control box, and there’s no problem replaci
 
 Export and import the configuration file easily to the new control box via 'Settings-General-Advanced Settings-Logic-Export/Import Configuration'.
 
-![](../assets/image(37).png)
+![](../assets/export_config_file.png)
 
 **2. ‘Blcokly Project’ and ‘Recording File’**
 
 Export and import the projects via the ‘Blockly’/’Recording’ module.
 
-![](../assets/image(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1).png)
+![](../assets/blockly_import_download.png)
 
-![](../assets/image(2)(1)(1)(1)(1)(1)(1).png)
+![](../assets/recording_traj.png)
 
 **3. Friction parameters**
 

@@ -19,7 +19,7 @@ Please contact technical support<[support@ufactory.cc](mailto:support@ufactory.c
 1. Move all the end effectors, and set TCP payload as 0.
 2. Place the arm horizontally on the table like the image below(J3 around -175 degree), make sure J4J5J6 is suspended, and 1 person to hold the arm to make sure it will not move.
 
-![](../assets/image(60).png)
+![](../assets/reset_servo_zero.png)
 
 ### Joint4-xArm7/UF850
 

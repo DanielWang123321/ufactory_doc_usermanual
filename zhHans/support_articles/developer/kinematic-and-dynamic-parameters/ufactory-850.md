@@ -23,9 +23,9 @@
 
 **2.标准DH参数**
 
-| Size Parameters: (unit:mm)                  | Joint Coordinate Definition                 |
-| ------------------------------------------- | ------------------------------------------- |
-| ![image](../assets/image(20).png) | ![image](../assets/image(22).png)|
+| Size Parameters: (unit:mm)                            | Joint Coordinate Definition                 |
+|-------------------------------------------------------| ------------------------------------------- |
+| ![image](../assets/850_StandardDH_and_Dynamics_1.png) | ![image](../assets/image(22).png)|
 
 
 | Kinematics | theta offset(deg) | d(mm) | alpha(deg) | a(mm) |

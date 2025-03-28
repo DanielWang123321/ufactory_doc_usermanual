@@ -12,7 +12,7 @@
 
 1）pin针定义
 
-![image](../assets/8.png)
+![image](../assets/RobotiqGripper.png)
 
 2）连接
 
@@ -33,19 +33,19 @@
 
 TCP负载和偏移：设置-运动参数-TCP设置
 
-![image](../assets/9.png)
+![image](../assets/RobotiqGripper_2.png)
 
 防自碰撞模型：设置-实时控制-末端执行器“，选择Robotiq 机械爪
 
-请选择“是的"，这会把波特率设置为115200，默认波特率是2000000
+请选择“是"，这会把波特率设置为115200，默认波特率是2000000
 
-![image](../assets/10.png)
+![image](../assets/RobotiqGripper_3.png)
 
 2）通过python SDK设置参数
 
 波特率：
 
-```
+```python
 //Code example
 # Modify the baud rate to 115200, the default is 2000000.
 arm.set_tgpio_modbus_baudrate(115200)  
@@ -54,7 +54,7 @@ arm.set_tgpio_modbus_baudrate(115200)
 
 TCP负载和偏移设置：
 
-```
+```python
 
 # Robotiq 2F/85 Gripper
 arm.set_tcp_load(0.925, [0, 0, 58])
@@ -69,7 +69,7 @@ arm.save_conf()
 
 防自碰撞模型
 
-```
+```python
 # Robotiq 2F/85 Gripper
 arm.set_collision_tool_model(4)
 
@@ -81,22 +81,24 @@ arm.set_collision_tool_model(5)
 
 1）通过UFactory Studio控制
 
-![image](../assets/11.png)
+![image](../assets/RobotiqGripper_4.png)
 
 Ufactory Studio-Blockly
 
-![image](../assets/12.png)
+![image](../assets/RobotiqGripper_5.png)
 2)通过python SDK控制
 
-```
+```python
+
 arm.set_tgpio_modbus_baudrate(115200)  
 arm.robotiq_reset()
 arm.robotiq_set_activate()    #enable the robotiq gripper
 arm.robotiq_close()
 arm.robotiq_open()
+
 ```
 
-注意：
+**注意：**
 
 1-当使用SDK去控制爪子时，不需要发送CRC，我们会自动添加它
 

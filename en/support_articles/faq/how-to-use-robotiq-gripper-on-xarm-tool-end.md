@@ -34,13 +34,13 @@ The main parameter is the Baud rate, TCP offset, TCP payload, and self-collision
 
 TCP Payload and offset: 'Settings-Motion-TCP'.
 
-![](../assets/image(10).png)
+![](../assets/RobotiqGripper_2.png)
 
 Self-collision prevention model: 'Settings-Live Control-End Effector', choose Robotiq Gripper.
 
 Please choose 'yes', It will set the baud rate to 115200, the default baud rate is 2000000.
 
-![](../assets/image(53).png)
+![](../assets/RobotiqGripper_3.png)
 
 ### 2)Config the parameter via Python SDK
 
@@ -89,13 +89,13 @@ UFactory Studio - Live Control:
 
 
 
-![](../assets/image(4)(1)(1)(1).png)
+![](../assets/RobotiqGripper_4.png)
 
 
 
 UFactory Studio - Blockly:
 
-![](../assets/image(5)(1)(1).png)
+![](../assets/RobotiqGripper_5.png)
 
 ### 2) Control it via Python SDK
 
