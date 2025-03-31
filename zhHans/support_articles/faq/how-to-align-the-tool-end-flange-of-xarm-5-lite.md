@@ -12,7 +12,7 @@
 
 用公式计算J4的角度： J4 = - (J2+J3)，然后进行设置，这样末端就对齐了。
 
-```php
+```python
 // code example
 // align the end flange of xArm 5 Lite
 code, angles = arm.get_servo_angle()

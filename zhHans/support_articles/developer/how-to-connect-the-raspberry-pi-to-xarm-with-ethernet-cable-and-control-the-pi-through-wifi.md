@@ -53,12 +53,12 @@ __2.机械臂 IP 和以太网 IP 位于同一网段__
 
 pi@raspberrypi:~ $ sudo nano /etc/dhcpcd.conf
 
-![image](../assets/15.png)
+![image](../assets/Raspberry_Pi_1.png)
 
 
 修改成功后，将树莓派网线重新连接到 xArm，检查树莓派配置。 如果符合访问条件，就可以 ping通 xArm 了。
 
-![image](../assets/16.png)
+![image](../assets/Raspberry_Pi_2.png)
 
 
 ### 方法2：
@@ -69,4 +69,4 @@ pi@raspberrypi:~ $ sudo nano /etc/dhcpcd.conf
 
 PC 通过 WIFI 访问 树莓派，树莓派通过以太网 IP 访问 xArm。 通过这种连接方式，树莓派可以直接 ping通xArm。
 
-![image](../assets/17.png)
+![image](../assets/Raspberry_Pi_3.png)

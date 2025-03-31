@@ -63,19 +63,19 @@ e.g. cmd ssh [pi@192.168.144](mailto:pi@192.168.144)(SSH piName@pi wifi IP addre
 
 pi@raspberrypi:\~ $ sudo nano /etc/dhcpcd.conf
 
-<div align="left">
 
-![](../assets/image(57).png)
 
-</div>
+![](../assets/Raspberry_Pi_2.png)
+
+
 
 After the modification is successful, reconnect the Raspberry Pi network cable to the xArm, check the Raspberry Pi config. If it meets the conditions to access, you can ping xArm now.
 
-<div align="left">
 
-![](../assets/image2.png)
 
-</div>
+![](../assets/Raspberry_Pi_3.png)
+
+
 
 ### Method 2:
 
@@ -87,8 +87,7 @@ PC access to Raspberry Pi via wifi, Raspberry Pi access to xArm via eth IP.
 
 In this connection way, Raspberry Pi can ping the xArm directly.
 
-<div align="left">
 
-![](../assets/image3.png)
+![](../assets/Raspberry_Pi_1.png)
 
-</div>
+
