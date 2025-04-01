@@ -14,15 +14,16 @@
 1）进入”设置-外部设备-控制器IO“，CI0 ，CI1默认为1（高电平）
 
 
-![image](../assets/image(5).png)
+![image](../assets/CI0_CI1.png)
 
 
 2）选择机械臂IO，将TO0 ，TO1都设置为1（高电平）
-![](../assets/img.png)
+
+![](../assets/TO0_TO1.png)
 
 
 
 3\) 返回控制器IO，CI0 ，CI1应该都被设置为了0（低电平）
 
-![image](../assets/img3.png)
+![image](../assets/CIO_CI1_2.png)
 

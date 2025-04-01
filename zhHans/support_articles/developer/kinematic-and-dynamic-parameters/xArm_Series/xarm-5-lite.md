@@ -4,7 +4,7 @@ xArm 5 Lite的运动学和动力学参数
 
 **1.修改DH参数**
 
-![image](../../assets/image(39).png)
+![image](../../assets/xarm5_modified_DH_and_dynamics.png)
 
 | Kinematics | theta (rad) | d(mm) | alpha(rad) | a(mm) | offset(rad) |
 | ---------- | ----------- | ----- | ---------- | ----- | ----------- |
@@ -16,7 +16,7 @@ xArm 5 Lite的运动学和动力学参数
 
 **2.标准DH参数**
 
-![image](../../assets/image(40).png)
+![image](../../assets/xarm5_standard_DH_and_dynamics.png)
 
 | Kinematics | theta(rad) | d(mm) | alpha(rad) | a(mm) | offset(rad) |
 | :--------- | :--------- | :---- | :--------- | :---- | :---------- |
@@ -42,7 +42,7 @@ a3 = sqrt(77.5^2+342.5^2) = 351.158796;
 **3.质量参数**
 
 
-![image](../../assets/image(41).png)
+![image](../../assets/xarm5_mass_parameter.png)
 
 **xArm 5 Lite - 模型1**
 

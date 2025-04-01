@@ -6,9 +6,9 @@
 
 **1.修改DH参数**
 
-| Size Parameters: (unit:mm)      | Joint Coordinate Definition     |
-|---------------------------------|---------------------------------|
-| ![image](../assets/lite6_1.png) | ![image](../assets/lite6_2.png) |
+| Size Parameters: (unit:mm)                            | Joint Coordinate Definition                                  |
+|-------------------------------------------------------|--------------------------------------------------------------|
+| ![image](../assets/lite6_modified_size_parameter.png) | ![](../assets/lite6_modified_joint_coorinate_definition.png) |
 
 
 
@@ -25,7 +25,7 @@
 
 | Size Parameters: (unit:mm)      | Joint Coordinate Definition     |
 |---------------------------------|---------------------------------|
-| ![image](../assets/lite6_3.png) | ![image](../assets/lite6_4.png) |
+| ![image](../assets/lite6_standard_size_parameter.png) | ![image](../assets/lite6_standard_joint_coorinate_definition.png) |
 
 
 | Kinematics | theta offset(deg) | d(mm) | alpha(deg) | a(mm) |
@@ -42,9 +42,9 @@
 
 
 
-| Size Parameters: (unit:mm)       | Joint Coordinate Definition     |
-|----------------------------------|---------------------------------|
-| ![image](../assets/lite6_5.png) | ![image](../assets/lite6_6.png) |
+| Size Parameters: (unit:mm)       | Joint Coordinate Definition                                   |
+|----------------------------------|---------------------------------------------------------------|
+| ![image](../assets/lite6_mass_size_parameter.png) | ![image](../assets/lite6_mass_joint_coorinate_definition.png) |
 
 
 | Dynamics | Mass(kg) | Center of Mass(mm)   |

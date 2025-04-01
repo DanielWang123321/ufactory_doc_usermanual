@@ -51,7 +51,7 @@ arm.save_conf()
 * 转弯半径 >0
 * 等待 =否
 
-![image](../assets/14.png)
+![image](../assets/continuous_motion.png)
 
 转弯半径 >0, 等待 =否；示例视频：https://www.youtube.com/watch?v=oX_J8RplEw4
 

@@ -9,7 +9,7 @@
 
 
 
-![](../assets/dou-dong.png)
+![](../assets/joint_tcp_jerk.png)
 
 ## 2.检查机械臂是否经过或者接近奇异点
 

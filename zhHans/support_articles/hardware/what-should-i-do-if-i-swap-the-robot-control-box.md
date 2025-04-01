@@ -6,21 +6,21 @@
 
 可以通过设置-通用设置-高级设置-导出和加载配置文件，轻松实现控制器交换
 
- ![](../assets/26.png)
+ ![](../assets/export_config_file.png)
 
 ## 2.Blockly 项目和轨迹文件
 
 通过Blockly模块导出和导入项目文件
 
 
- ![](../assets/27.png)
+ ![](../assets/blockly_import_download.png)
 
- ![](../assets/28.png)
+ ![](../assets/recording_traj.png)
 
 ## 3.摩擦力参数
 
 SN号的前6位代表机械臂的型号
-![](../assets/29.png)
+![](../assets/SN.png)
 
 不管控制器的型号是什么：
 

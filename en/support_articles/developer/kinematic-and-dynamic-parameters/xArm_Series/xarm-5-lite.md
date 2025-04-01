@@ -7,14 +7,14 @@ Kinematic and Dynamic Parameters of xArm 5 Lite
 **1. Modified D-H Parameters**
 
 
-![](../../../assets/image(39).png)
+![](../../../assets/xarm5_modified_DH_and_dynamics.png)
 
 <table data-full-width="false"><thead><tr><th width="139">Kinematics</th><th width="127">theta (rad)</th><th width="107">d(mm)</th><th width="121">alpha(rad)</th><th width="95">a(mm)</th><th>offset(rad)</th></tr></thead><tbody><tr><td>Joint1</td><td>0</td><td>267</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Joint2</td><td>0</td><td>0</td><td>-pi/2</td><td>0</td><td>T2_offset</td></tr><tr><td>Joint3</td><td>0</td><td>0</td><td>0</td><td>a2</td><td>T3_offset</td></tr><tr><td>Joint4</td><td>0</td><td>0</td><td>0</td><td>a3</td><td>T4_offset</td></tr><tr><td>Joint5</td><td>0</td><td>97</td><td>-pi/2</td><td>0</td><td>0</td></tr></tbody></table>
 
 **2. Standard D-H Parameters**
 
 
-![](../../../assets/image(40).png)
+![](../../../assets/xarm5_standard_DH_and_dynamics.png)
 
 <table><thead><tr><th width="147.33333333333331">Kinematics</th><th width="117">theta(rad)</th><th width="99">d(mm)</th><th width="123">alpha(rad)</th><th width="104">a(mm)</th><th>offset(rad)</th></tr></thead><tbody><tr><td>Joint1</td><td>0</td><td>267</td><td>-pi/2</td><td>0</td><td>0</td></tr><tr><td>Joint2</td><td>0</td><td>0</td><td>0</td><td>a2</td><td>T2_offset</td></tr><tr><td>Joint3</td><td>0</td><td>0</td><td>0</td><td>a3</td><td>T3_offset</td></tr><tr><td>Joint4</td><td>0</td><td>0</td><td>-pi/2</td><td>76</td><td>T4_offset</td></tr><tr><td>Joint5</td><td>0</td><td>97</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
 
@@ -38,7 +38,7 @@ a3 = sqrt(77.5^2+342.5^2) = 351.158796;
 
 
 
-![](../../../assets/image(41).png)
+![](../../../assets/xarm5_mass_parameter.png)
 
 
 

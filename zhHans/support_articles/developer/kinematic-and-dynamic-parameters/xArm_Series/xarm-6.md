@@ -4,7 +4,7 @@ xarm6的运动学和动力学参数
 
 **1.修改DH参数**
 
-![image](../../assets/image(42).png)
+![image](../../assets/xarm6_modified_DH_and_dynamics.png)
 
 | Kinematics | theta(rad) | d(mm) | alpha(rad) | a(mm) | offset(rad) |
 | :--------- | :--------- | :---- | :--------- | :---- | :---------- |
@@ -17,7 +17,7 @@ xarm6的运动学和动力学参数
 
 **2.标准DH参数**
 
-![image](../../assets/image(43).png)
+![image](../../assets/xarm6_standard_DH_and_dynamics.png)
 
 | Kinematics | theta(rad) | d(mm) | alpha(rad) | a(mm) | offset(rad) |
 | :--------- | :--------- | :---- | :--------- | :---- | :---------- |
@@ -39,7 +39,7 @@ T3_offset = -T2_offset = 1.3849179 (79.34995°);<br><br>
 
 **3.质量参数**
 
-![image](../../assets/image(44).png)
+![image](../../assets/xarm6_mass_parameter.png)
 
 **xArm6 - 模型1**
 

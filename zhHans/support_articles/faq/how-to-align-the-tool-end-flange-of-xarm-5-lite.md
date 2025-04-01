@@ -4,7 +4,7 @@
 
 在实时控制界面可使末端调平
 
-![images](../assets/25.png)
+![images](../assets/Align.png)
 
 
 

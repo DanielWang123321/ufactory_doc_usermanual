@@ -23,7 +23,7 @@ SDK: [https://github.com/xArm-Developer](https://github.com/xArm-Developer)
 
 Go to [My Device] → [Check for Update], click "Check for Update", if there is a new version, click "Download", click "Install" to load the downloaded installation package, and wait for the system to reboot. The reboot will take about 2-3 minutes.
 
-![](../assets/image(1)(1)(1)(1)(1)(1)(1)(1)(1)(1).png)
+![](../assets/update_1.png)
 
 ### 2. Offline Upgrade: When the PC has no network connection.
 

@@ -1,12 +1,11 @@
 
-
 # xArm 7
 
 xarm7的运动学和动力学参数
 
 **1.修改DH参数**
 
-![image](../../assets/image(45).png)
+![image](../../assets/xarm7_modified_DH_and_dynamics.png)
 
 | Kinematics | theta(rad) | d(mm) | alpha(rad) | a(mm) | offset(rad)     |
 | :--------- | :--------- | :---- | :--------- | :---- | :----------     |
@@ -38,7 +37,7 @@ xarm7的运动学和动力学参数
 **3.质量参数**
 
 
-![image](../../assets/image(47).png)
+![image](../../assets/xarm7_mass_parameter.png)
 
 **xArm7- 模型1**
 

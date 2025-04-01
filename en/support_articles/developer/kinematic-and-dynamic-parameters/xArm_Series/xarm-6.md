@@ -7,14 +7,14 @@ description: Kinematic and Dynamic Parameters of xArm 6
 **1. Modified D-H Parameters**
 
 
-![](../../../assets/image(42).png)
+![](../../../assets/xarm6_modified_DH_and_dynamics.png)
 
 
 <table><thead><tr><th width="147.33333333333331">Kinematics</th><th width="117">theta(rad)</th><th width="99">d(mm)</th><th width="123">alpha(rad)</th><th width="104">a(mm)</th><th>offset(rad)</th></tr></thead><tbody><tr><td>Joint1</td><td>0</td><td>267</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Joint2</td><td>0</td><td>0</td><td>-pi/2</td><td>0</td><td>T2_offset</td></tr><tr><td>Joint3</td><td>0</td><td>0</td><td>0</td><td>a2</td><td>T3_offset</td></tr><tr><td>Joint4</td><td>0</td><td>342.5</td><td>-pi/2</td><td>77.5</td><td>0</td></tr><tr><td>Joint5</td><td>0</td><td>0</td><td>pi/2</td><td>0</td><td>0</td></tr><tr><td>Joint6</td><td>0</td><td>97</td><td>-pi/2</td><td>76</td><td>0</td></tr></tbody></table>
 
 **2. Standard D-H Parameters**
 
-![](../../../assets/image(43).png)
+![](../../../assets/xarm6_standard_DH_and_dynamics.png)
 
 <table><thead><tr><th width="147.33333333333331">Kinematics</th><th width="117">theta(rad)</th><th width="99">d(mm)</th><th width="123">alpha(rad)</th><th width="104">a(mm)</th><th>offset(rad)</th></tr></thead><tbody><tr><td>Joint1</td><td>0</td><td>267</td><td>-pi/2</td><td>0</td><td>0</td></tr><tr><td>Joint2</td><td>0</td><td>0</td><td>0</td><td>a2</td><td>T2_offset</td></tr><tr><td>Joint3</td><td>0</td><td>0</td><td>-pi/2</td><td>77.5</td><td>T3_offset</td></tr><tr><td>Joint4</td><td>0</td><td>342.5</td><td>pi/2</td><td>0</td><td>0</td></tr><tr><td>Joint5</td><td>0</td><td>0</td><td>-pi/2</td><td>76</td><td>0</td></tr><tr><td>Joint6</td><td>0</td><td>97</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
 
@@ -32,7 +32,7 @@ T3\_offset = -T2\_offset = 1.3849179 (79.34995°);
 
 **3. Mass Parameters**
 
-![](../../../assets/image(44).png)
+![](../../../assets/xarm6_mass_parameter.png)
 
 **xArm 6 - Model 1**
 

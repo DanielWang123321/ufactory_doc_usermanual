@@ -282,4 +282,4 @@ plt.show()
 
 
 结果如图：
-![image](../assets/image(59).png)
+![image](../assets/joint_angle_diagrams.png)

@@ -7,9 +7,9 @@
 
 **1.修改DH参数**
 
-| Size Parameters: (unit:mm)                  | Joint Coordinate Definition                 |
-| ------------------------------------------- | ------------------------------------------- |
-| ![image](../assets/850_sizeparamater.png) | ![image](../assets/850_modifiedDH_and_Dynamics(2).png)|
+| Size Parameters: (unit:mm)                  | Joint Coordinate Definition                                |
+| ------------------------------------------- |------------------------------------------------------------|
+| ![](../assets/850_modified_size_parameter.png) | ![](../assets/850_modified_joint_coorinate_definition.png) |
 
 
 | Kinematics | theta offset(deg) | d(mm) | alpha(deg) | a(mm) |
@@ -23,9 +23,9 @@
 
 **2.标准DH参数**
 
-| Size Parameters: (unit:mm)                            | Joint Coordinate Definition                 |
-|-------------------------------------------------------| ------------------------------------------- |
-| ![image](../assets/850_StandardDH_and_Dynamics_1.png) | ![image](../assets/image(22).png)|
+| Size Parameters: (unit:mm)                            | Joint Coordinate Definition                |
+|-------------------------------------------------------| ------------------------------------------ |
+| ![image](../assets/850_standard_DH_size_parameter.png) | ![image](../assets/850_standard_joint_coorinate_definition.png)|
 
 
 | Kinematics | theta offset(deg) | d(mm) | alpha(deg) | a(mm) |
@@ -42,9 +42,9 @@
 
 
 
-| Size Parameters: (unit:mm)                  | Joint Coordinate Definition                 |
-| ------------------------------------------- | ------------------------------------------- |
-| ![image](../assets/image(20).png) | ![image](../assets/image(23).png)|
+| Size Parameters: (unit:mm)        | Joint Coordinate Definition                |
+|-----------------------------------| ------------------------------------------ |
+| ![image](../assets/850_mass_size_parameter.png) | ![image](../assets/850_mass_joint_coorinate_definition.png)|
 
 
 | Dynamics | Mass(kg) | Center of Mass[x,y,z]-Modified DH Coordinate System |

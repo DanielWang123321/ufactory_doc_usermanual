@@ -34,7 +34,7 @@ It is recommended to adjust the jerk to the maximum, which will speed up the mot
 
 'Settings-General-Advanced Settings-Parameters'
 
-![](../assets/image(11).png)
+![](../assets/joint_tcp_jerk.png)
 
 * Parameter adjustment via Python SDK
 
@@ -63,7 +63,7 @@ Adjust Parameters to do continuous motion.
 
 Example:
 
-![](../assets/image(3)(1)(1)(1).png)
+![](../assets/continuous_motion.png)
 
 Radius>0, wait=False;    Video: [https://youtu.be/oX\_J8RplEw4](https://youtu.be/oX\_J8RplEw4)
 
