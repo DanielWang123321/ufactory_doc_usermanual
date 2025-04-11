@@ -28,7 +28,7 @@ features:
       width: 400
       height: 400
       alt: Support Article
-    link: http://docs.support_article.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html
+    link: http://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html
     target: _self
     details: Learn how to solve common issues.
   - title: API
