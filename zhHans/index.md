@@ -28,7 +28,7 @@ features:
       width: 400
       height: 400
       alt: Support Article
-    link: http://docs.support_article.ufactory.cc/zhHans/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html
+    link: http://docs.support_article.ufactory.cc/zhHans/supportarticles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html
     target: _self
     details: 技术支持文档.
   - title: API
@@ -55,7 +55,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: zhHans/user_manual/ufactoryStudio/1.preface.html
+    link: http://docs.850.ufactory.cc/zhHans/1.safety.html
     target: _self
     details:  UFACTORY 850硬件手册
 
