@@ -5,9 +5,6 @@ hero:
   name: "UFactory Docs"
   tagline: "我们可以帮你找到什么"
   actions:
-    - theme: brand
-      text: 开始
-      link: user_manual/ufactoryStudio/1.preface.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer
