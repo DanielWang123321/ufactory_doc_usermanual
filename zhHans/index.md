@@ -16,7 +16,7 @@ hero:
 features:
   - title: 用户手册
     icon: 
-      src: /assets/support_article.svg
+      src: /assets/support_article_1.svg
       width: 400
       height: 400
       alt: User Manual
@@ -24,7 +24,7 @@ features:
     details: UFACTORY Studio user manual
   - title: 技术支持文档
     icon: 
-      src: /assets/support_article.svg
+      src: /assets/support_article_1.svg
       width: 400
       height: 400
       alt: Support Article
@@ -33,7 +33,7 @@ features:
     details: 技术支持文档.
   - title: API
     icon: 
-      src: /assets/api.svg
+      src: /assets/api_1.svg
       width: 400
       height: 400
       alt: Release Note
@@ -42,7 +42,7 @@ features:
     details: Python SDK, WebSocket API, Gcode, Modbus TCP, Private TCP, Release Note
   - title: xArm配件用户手册
     icon: 
-      src: /assets/support_article.svg
+      src: /assets/support_article_1.svg
       width: 400
       height: 400
       alt: xArm Accessories
