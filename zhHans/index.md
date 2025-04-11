@@ -6,8 +6,8 @@ hero:
   tagline: "我们可以帮你找到什么"
   actions:
     - theme: brand
-      text: StartReady
-      link: zhHans/user_manual/ufactoryStudio/1.preface.html
+      text: 开始
+      link: user_manual/ufactoryStudio/1.preface.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_usermanual
@@ -20,7 +20,7 @@ features:
       width: 400
       height: 400
       alt: User Manual
-    link: zhHans/user_manual/ufactoryStudio/1.preface.html
+    link: user_manual/ufactoryStudio/1.preface.html
     details: UFACTORY Studio user manual
   - title: 技术支持文档
     icon: 
@@ -46,7 +46,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: http://docs.accessories.ufactory.cc/zhHans/6_Axis_Force_Torque_Sensor/1.General_Presentation.html
+    link: http://docs.accessories.ufactory.cc/zhHans/6_Axis_Force_Torque_Sensor/1.Introduction.html
     target: _self
     details:  六维力矩传感器、BIO机械爪G2、直线滑轨、xArm机械爪、xArm真空吸头
   - title: UFACTORY 850硬件手册
