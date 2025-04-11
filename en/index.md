@@ -19,7 +19,7 @@ features:
       alt: User Manual
     link: user_manual/ufactoryStudio/1.preface.html
     details: UFACTORY Studio user manual
-  - title: Support Article
+  - title: Support Articles
     icon: 
       src: /assets/support_article_1.svg
       width: 400
