@@ -5,6 +5,6 @@
 </head>
 <body>
     <!-- ufactory docs -->
-    You will be redirected to <a href="http://docs.usermanual.ufactory.cc/zhHans/">http://docs.usermanual.ufactory.cc/zhHans/</a> shortly.
+    You will be redirected to <a href="http://docs.usermanual.ufactory.cc/zhHans/">http://docs.ufactory.cc/zhHans/</a> shortly.
 </body>
 </html>
