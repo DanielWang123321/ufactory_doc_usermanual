@@ -7,8 +7,8 @@ import {  FileDown } from "lucide-vue-next";
 // pdf路由映射
 const PDF_ROUTE_MAP = {
   "6_Axis_Force_Torque_Sensor":{
-    "en-US": "https://www.ufactory.cc/wp-content/uploads/2023/11/UFACTORY-6-Axis-Force-Torque-Sensor-V2.2.0.pdf",
-    "zh-CN": "https://www.cn.ufactory.cc/_files/ugd/896670_c45b72ffe8b44074ab44a500a63591fd.pdf",
+    "en-US": "https://www.ufactory.cc/wp-content/uploads/2025/04/UFACTORY-6-Axis-Force-Torque-Sensor-V2.5.2.pdf",
+    "zh-CN": "https://www.cn.ufactory.cc/_files/ugd/896670_1889641667fb418c8fba20b80354da0f.pdf",
   },
   "Bio_Gripper_G2":{
     "en-US": "https://www.ufactory.cc/wp-content/uploads/2025/04/BIO-Gripper-G2-User-Manual-V2.6.0-2.pdf",
