@@ -5,12 +5,9 @@ hero:
   name: "UFactory Docs"
   tagline: "What can we help you find"
   actions:
-    - theme: brand
-      text: StartReady
-      link: user_manual/ufactoryStudio/1.preface.html
     - theme: alt
       text: Github
-      link: https://github.com/xArm-Developer/ufactory_usermanual
+      link: https://github.com/xArm-Developer
 
 
 features:
@@ -22,7 +19,7 @@ features:
       alt: User Manual
     link: user_manual/ufactoryStudio/1.preface.html
     details: UFACTORY Studio user manual
-  - title: Support Article
+  - title: Support Articles
     icon: 
       src: /assets/support_article.svg
       width: 400
