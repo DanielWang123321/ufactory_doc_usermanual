@@ -73,4 +73,13 @@ features:
     link: http://docs.850.ufactory.cc/zhHans/1.safety.html
     target: _self
     details:  Lite6硬件手册
+  - title: 升级日志
+    icon: 
+      src: /assets/releasenote.svg
+      width: 400
+      height: 400
+      alt: xArm Accessories
+    link: http://docs.850.ufactory.cc/zhHans/1.safety.html
+    target: _self
+    details:  UFACTORY Studio升级日志，新功能说明
 ---
