@@ -73,6 +73,14 @@ features:
     link: https://docs.850.ufactory.cc/1.safety.html
     target: _self
     details: Lite6 Hardware Manual 
-    
+  - title: Release Note
+    icon: 
+      src: /assets/releasenote.svg
+      width: 400
+      height: 400
+      alt: Lite6 Hardware Manual
+    link: https://docs.850.ufactory.cc/1.safety.html
+    target: _self
+    details: Release Note, New Feature
 ---
 
