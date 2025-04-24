@@ -79,7 +79,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: https://docs.releasenote.ufactory.cc/zhHans/new_feature/studio_v2.6.0_new_feature.html
+    link: https://docs.releasenote.ufactory.cc/zhHans/release_note/version_list.html
     target: _self
     details:  UFACTORY Studio升级日志，新功能说明
 ---
