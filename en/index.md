@@ -79,7 +79,7 @@ features:
       width: 400
       height: 400
       alt: Lite6 Hardware Manual
-    link: https://docs.850.ufactory.cc/1.safety.html
+    link: https://docs.releasenote.ufactory.cc/release_note/version_list.html
     target: _self
     details: Release Note, New Feature
 ---
