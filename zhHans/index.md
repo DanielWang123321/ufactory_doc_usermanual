@@ -79,7 +79,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: http://docs.850.ufactory.cc/zhHans/1.safety.html
+    link: https://docs.releasenote.ufactory.cc/zhHans/release_note/version_list.html
     target: _self
     details:  UFACTORY Studio升级日志，新功能说明
 ---
