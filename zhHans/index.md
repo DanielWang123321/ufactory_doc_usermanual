@@ -61,7 +61,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: http://docs.850.ufactory.cc/zhHans/1.safety.html
+    link: http://docs.xarm.ufactory.cc/zhHans/1.safety.html
     target: _self
     details:  xArm硬件手册
   - title: Lite6硬件手册
@@ -70,7 +70,7 @@ features:
       width: 400
       height: 400
       alt: xArm Accessories
-    link: http://docs.850.ufactory.cc/zhHans/1.safety.html
+    link: http://docs.lite6.ufactory.cc/zhHans/1.safety.html
     target: _self
     details:  Lite6硬件手册
   - title: 升级日志
