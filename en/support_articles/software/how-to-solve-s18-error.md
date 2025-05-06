@@ -13,7 +13,7 @@ Please note that if the arm is not used for a long time(**≥3 months**), you ne
 
 ### Status code=0:
 
-There is a status code of S18 error. If the status code is 0, please enter 'Settings-General-Debugging Tools-Joint', enter '**H101D0813V256I\***', and send. **Press down the E stop button and release.**
+There is a status code of S18 error. If the status code is 0, please enter 'Settings-General-Debugging Tools-Joint', enter '**H101D0813V256I\***', and send. **Press down the E stop button, wait for 10 seconds, and then release.**
 
 * stands for joint ID, can be 1-7.
 
