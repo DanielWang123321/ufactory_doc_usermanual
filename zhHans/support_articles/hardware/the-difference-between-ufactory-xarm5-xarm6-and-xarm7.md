@@ -28,7 +28,7 @@
 
 ​	xArm5 的运动比较特殊，由于结构限制，笛卡尔空间的直线、圆弧运动实际灵活自由度为4, 即[x,y,z,yaw]，类似四自由度的 SCARA 机械臂。在开始笛卡尔控制之前，需要保证 xArm5处于末端法兰面与底座完全水平的姿态，此时 roll 和 pitch 应为 [±180 度，0 度]，否则轨迹很容易无解。
 
-[如何调平xarm5的末端？](../faq/how-to-align-the-tool-end-flange-of-xarm-5-lite.md)
+[如何调平xarm5的末端？](../software/how-to-align-the-tool-end-flange-of-xarm-5-lite.md)
 
 
 
