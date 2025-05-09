@@ -50,4 +50,15 @@
 
 
 
-## UFACTORY 850
+## UFACTORY 850(8510)
+
+
+| Joint ID | torque constant(N·m/A) | position loop proportional gain | velocity loop proportional gain | velocity loop integral gain | position feedforward | position loop differential gain | current loop proportional gain | current loop integral gain | speed threshold |
+| -------- | ---------------------- | ------------------------------- | ------------------------------- | --------------------------- | -------------------- | ------------------------------- | ------------------------------ | -------------------------- | --------------- |
+| J1       | 0.0612                 | 150                             | 5000                            | 450                         | 260                  | 200                             | 3000                           |                            |                 |
+| J2       | 0.0612                 | 150                             | 5000                            | 450                         | 260                  | 200                             | 3000                           |                            |                 |
+| J3       | 0.0678165              | 150                             | 2500                            | 400                         | 260                  | 200                             | 3000                           |                            |                 |
+| J4       | 0.67                   | 200                             | 1500                            | 400                         | 800                  | 400                             | 4500                           |                            |                 |
+| J5       | 0.67                   | 250                             | 1000                            | 400                         | 800                  | 400                             | 4500                           |                            |                 |
+| J6       | 0.67                   | 200                             | 1000                            | 400                         | 800                  | 400                             | 4500                           |                            |                 |
+
