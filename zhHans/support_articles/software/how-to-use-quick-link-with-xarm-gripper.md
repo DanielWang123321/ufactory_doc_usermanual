@@ -40,7 +40,7 @@ xArm机械臂默认波特率为2000000， Quick Link快换头默认波特率为1
 | 蓝   | +24V（电源） | 绿   | 0V（GND） |
 | 粉   | 用户485-A  | 黄   | 用户485-B |
 
-**Quick Link快换头定义：**
+**Quick Link快换头定义：**  
 ![](../assets/quicklink_3.png)
 
 ## 3. 软件控制
@@ -65,6 +65,6 @@ xArm机械臂默认波特率为2000000， Quick Link快换头默认波特率为1
 
 ## 如何确认硬件连接正确？
 拆开机械爪外壳6颗螺丝，用万用表测量触点和爪子PCB的通断。  
-机械爪： 棕蓝24V+，白绿GND，粉色485A，黄色485B。
-![](../assets/quicklink_4.png)
+机械爪： 棕蓝24V+，白绿GND，粉色485A，黄色485B。  
+![](../assets/quicklink_4.png)  
 ![](../assets/quicklink_5.png)
