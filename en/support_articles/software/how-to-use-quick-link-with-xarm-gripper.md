@@ -41,8 +41,8 @@ The below steps showing how to modify the baud rate of xArm Gripper to 115200.
 Need to connect 2×24V, 2×GND, RS485A, RS485B.
 | Color | Singal      | Color  | Singal  |
 | ----- | ----------- | ------ | ------- |
-| Brown | +24V(Power) | White  | 0V(GND) |
-| Blue  | +24V(Power) | Green  | 0V(GND) |
+| Brown | +24V(Power) | White  | GND |
+| Blue  | +24V(Power) | Green  | GND |
 | Pink  | RS485-A     | Yellow | RS485-B |
 
 **Quick Link PIN Sequence:**  
@@ -60,8 +60,8 @@ Need to connect 2×24V, 2×GND, RS485A, RS485B.
 
 | Operation                | Command                                                       | Response                     |
 | -------------------- | ---------------------------------------------------------- | ------------------------ |
-| Quick Link: Power on | 0x53 0x26 0x04 0x01 0x01 CRC                               | 53 26 04 01 01 2A D5 CRC |
-| Quick Link: Lock                | 0x53 0x26 0x01 0x01 0x01 CRC                               | 53 26 01 01 01 CRC       |
+| Quick Link: Lock | 0x53 0x26 0x01 0x01 0x01 CRC                              | 53 26 01 01 01 CRC |
+| Quick Link: Power on                | 0x53 0x26 0x04 0x01 0x01 CRC                                | 53 26 04 01 01 2A D5 CRC      |
 | xArm Gripper: Enable         | 0x08 0x06 0x01 0x00 0x00 0x01 CRC                          | 08 06 01 00 00 01 CRC    |
 | xArm Gripper: Open to 800       | 0x08 0x10 0x07 0x00 0x00 0x02 0x04 0x00 0x00 0x03 0x20 CRC | 08 10 07 00 00 02 CRC    |
 | xArm Gripper: Close to 0         | 0x08 0x10 0x07 0x00 0x00 0x02 0x04 0x00 0x00 0x00 0x00 CRC | 08 10 07 00 00 02 CRC    |
