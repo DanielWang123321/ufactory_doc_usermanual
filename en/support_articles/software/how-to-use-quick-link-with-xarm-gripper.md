@@ -1,6 +1,5 @@
 # How to use Quick Link with xArm Gripper
 
-## 1. Modify the Baud Rate of xArm Gripper
 
 * **xArm Gripper** ：[User Manual](https://docs.accessories.ufactory.cc/xArm_Gripper/1.Introduction.html)
 * **Quick Link** 
