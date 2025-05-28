@@ -66,14 +66,14 @@ You can debug and check more examples via 'UFACTORY Studio-Gcode' page.
 | M63       | Turn off digital output synchronized with motion | M63 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
 | M64       | Turn on digital output immediately               | M64 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
 | M65       | Turn off digital output immediately              | M65 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
-| M67       | Set an analog output synchronized with motion    | M67 E1 Q2 | E：IONum(AO0:0, AO1:1 )</br>Q：0-10V      |
-| M68       | Set an analog output immediately                 | M68 E0 Q5 | E：IONum(AO0:0, AO1:1 )</br>Q：0-10V      |
+| M67       | Set an analog output synchronized with motion    | M67 E1 Q2 | E：IONum(AO0:0, AO1:1 )<br>Q：0-10V      |
+| M68       | Set an analog output immediately                 | M68 E0 Q5 | E：IONum(AO0:0, AO1:1 )<br>Q：0-10V      |
 | M100      | Enable the arm                                   | M100 P Q  |                                         |
 | M101      | Clear error                                      | M101      |                                         |
 | M102      | Clear warn                                       | M102      |                                         |
 | M103      | Set mode                                         | M103 P    | P: mode                                 |
 | M104      | Set states                                       | M104 P    | P: states                               |
-| M115      | Set Tool GPIO                                    | M115 P Q  | P：IONum(0/1/2/3/4)</br>Q：0/1/10/11      |
+| M115      | Set Tool GPIO                                    | M115 P Q  | P：IONum(0/1/2/3/4)<br>Q：0/1/10/11      |
 | M116      | Control the end effector                         | M116 P Q  |                                         |
 
 
@@ -82,12 +82,12 @@ You can debug and check more examples via 'UFACTORY Studio-Gcode' page.
 | M116     | End effector<br>    | Command      | Description                                                                                                                       |
 | -------- | ------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | M116 P1  | xArm Gripper        | M116 P1 Q0   | Q: position(-10~850)                                                                                                              |
-| M116 P2  | xArm Vacuum Gripper | M116 P2 Q0   | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
-| M116 P3  | BIO Gripper         | M116 P3 Q1   | Q0: Close</br>Q1: Open                                                                                                            |
+| M116 P2  | xArm Vacuum Gripper | M116 P2 Q0   | Q0: Open（synchronized with motion）<br>Q1: Close（synchronized with motion）<br>Q10: Open（immediately）<br>Q11: Close（immediately） |
+| M116 P3  | BIO Gripper         | M116 P3 Q1   | Q0: Close<br>Q1: Open                                                                                                            |
 | M116 P4  | Robotiq Gripper     | M116 P4 Q100 | Q: position(0~255)                                                                                                                |
 | M116 P5  | Robotiq Gripper     | M116 P5 Q100 | Q: position(0~255)                                                                                                                |
-| M116 P11 | Gripper Lite        | M116 P11 Q1  | Q0: Close（synchronized with motion）</br>Q1: Open（synchronized with motion）</br>Q10: Close（immediately）</br>Q11: Open（immediately） |
-| M116 P12 | Vacuum Gripper Lite | M116 P12 Q0  | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
+| M116 P11 | Gripper Lite        | M116 P11 Q1  | Q0: Close（synchronized with motion）<br>Q1: Open（synchronized with motion）<br>Q10: Close（immediately）<br>Q11: Open（immediately） |
+| M116 P12 | Vacuum Gripper Lite | M116 P12 Q0  | Q0: Open（synchronized with motion）<br>Q1: Close（synchronized with motion）<br>Q10: Open（immediately）<br>Q11: Close（immediately） |
 
 
 
