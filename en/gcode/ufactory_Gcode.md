@@ -6,33 +6,34 @@
 Description: 
 
 UFACTORY Gcode is compatible with LinuxCNC gcode: http://linuxcnc.org/,  and  refers to the RS-274 standard.
-
-Updated: 2024-07-24<br>
-Firmware version:  v2.5.0 or later<br>
-UFACTORY Studio version:  V2.5.0 or later<br>
-TCP port: 504<br>
+* Firmware version:  v2.5.0 or later
+* UFACTORY Studio version:  V2.5.0 or later
+* TCP port: 504
 
 ---
 
-### 1. G command
+## 1. G command
 
 
-* **G0** X Y Z A B C   // The speed is 240mm/s by default
-* **G1** X Y Z A B C F  // XYZ(mm),  ABC(RPY,degree), F(speed,mm/min)
-* **G2**    //Arc move, clockwise arc (G2 X Y Z R P F ) (G2 X Y Z I J K P F),  R-radius, I- X offset, J- Y offset, K- Z offset, P-number of turns, default is 1
-* **G3**     //Arc move, counterclockwise arc (G3 X Y Z R P F) (G3 X Y Z I J K P F)
-* **G4** P    // Dwell, Unit: s
-* **G17**    //Z-axis, XY-plane
-* **G18**   //Y-axis, YZ-plane
-* **G19**   //X-axis, YZ-plane
-* **G20**    // use inches for length units
-* **G21**    // use millimeters for length units
-* **G90**  //absolute distance mode
-* **G90.1**  //absolute distance mode for I, J & K offsets
-* **G91**   //incremental distance mode
-* **G91.1**  //incremental distance mode for I, J & K offsets
 
-* Code Example
+| G Command | Definition                                     | Command                              | Description                                                                              |
+| --------- | ---------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------- |
+| G0        | Rapid Move                                     | G0 X Y Z A B C                       | The speed is 240mm/s by default                                                          |
+| G1        | Linear Move                                    | G1 X Y Z A B C F                     | XYZ(mm), ABC(RPY,degree), F(speed,mm/min)                                                |
+| G2        | Arc Move, clockwise arc                        | G2 X Y Z R P F<br>G2 X Y Z I J K P F | R-radius<br>I- X offset<br>J- Y offset<br>K- Z offset<br>P-number of turns, default is 1 |
+| G3        | Arc Move, counterclockwise arc                 | G3 X Y Z R P F<br>G3 X Y Z I J K P F | R-radius<br>I- X offset<br>J- Y offset<br>K- Z offset<br>P-number of turns, default is 1 |
+| G4        | Dwell                                          | G4 P2                                | Unit:s                                                                                   |
+| G17       | Z-axis, XY-plane.                              | G17                                  |                                                                                          |
+| G18       | Y-axis, XZ-plane.                              | G18                                  |                                                                                          |
+| G19       | X-axis, YZ-plane.                              | G19                                  |                                                                                          |
+| G20       | to use inches for length units                 | G20                                  |                                                                                          |
+| G21       | to use millimeters for length units            | G21                                  | Apply to G0/G1                                                                           |
+| G90       | absolute distance mode                         | G90                                  | Apply to G0/G1/G2/G3                                                                     |
+| G91       | incremental distance mode                      | G91                                  | Apply to G0/G1/G2/G3                                                                     |
+| G90.1     | absolute distance mode for I, J & K offsets    | G90.1                                | Apply to G2/G3                                                                           |
+| G91.1     | incremental distance mode for I, J & K offsets | G91.1                                | Apply to G2/G3                                                                           |
+
+### 1.1 Code Example
 
 ```
 G0 X300 Y100 Z200 A180 B0 C0        ;move to [300,100,200,180,0,0]
@@ -55,67 +56,42 @@ You can debug and check more examples via 'UFACTORY Studio-Gcode' page.
 
 ![](assets/Gcode_example.png)
 
-### 2. M command
+## 2. M command
 
-* **M2/M30**  //end program
-* **M62 P**     //turn on digital output synchronized with motion(wait=True).
-* **M63 P**     //turn off digital output synchronized with motion(wait=True).
-* **M64 P**     //turn on digital output immediately(wait=False).
-* **M65 P**     //turn off digital output immediately(wait=False).
-* **E67 E Q**  //set controller analog output synchronized with motion(wait=True).
-*   **E68 E Q**  //set controller analog output immediately(wait=False).                                                                P: IONUM(0-15, 0-7: CO0-CO7, 8-15: DO0-DO7)
 
-    E: IONUM(0-1), Q: value(0-10)
-* **M100 P{} Q{}**  //enable or disable the robot.                                                                                                          P1-enable,  P0-disable,  Q-joint ID(8 by default, stands for all joints).
-* **M101**    //clear error
-* **M102**   //clear warning
-* **M103 P{}** //set mode
-* **M104 P{}**  //set state
-* **M115 P{} Q{}** //set TGPIO                                                                                                                                          &#x20;
+| M Command | Definition                                       | Command   | Description                             |
+| --------- | ------------------------------------------------ | --------- | --------------------------------------- |
+| M2/M30    | End program                                      | M2/M30    |                                         |
+| M62       | Turn on digital output synchronized with motion  | M62 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
+| M63       | Turn off digital output synchronized with motion | M63 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
+| M64       | Turn on digital output immediately               | M64 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
+| M65       | Turn off digital output immediately              | M65 P     | P：IONum(0-15, 0-7:CO0-CO7, 8-15:DO0-D7) |
+| M67       | Set an analog output synchronized with motion    | M67 E1 Q2 | E：IONum(AO0:0, AO1:1 )</br>Q：0-10V      |
+| M68       | Set an analog output immediately                 | M68 E0 Q5 | E：IONum(AO0:0, AO1:1 )</br>Q：0-10V      |
+| M100      | Enable the arm                                   | M100 P Q  |                                         |
+| M101      | Clear error                                      | M101      |                                         |
+| M102      | Clear warn                                       | M102      |                                         |
+| M103      | Set mode                                         | M103 P    | P: mode                                 |
+| M104      | Set states                                       | M104 P    | P: states                               |
+| M115      | Set Tool GPIO                                    | M115 P Q  | P：IONum(0/1/2/3/4)</br>Q：0/1/10/11      |
+| M116      | Control the end effector                         | M116 P Q  |                                         |
 
-&#x20;      P:  IONUM   0/1/2/3/4
 
-&#x20;      Q: 0/ 1/ 10/ 11&#x20;
+### 2.1 M116 Definition
 
-&#x20;            Q0:turn off(low level) tool digital output synchronized with motion(wait=True).&#x20;
-
-&#x20;            Q1:turn on(high level) tool digital output synchronized with motion(wait=True).&#x20;
-
-&#x20;            Q10: turn off tool digital output immediately(wait=False). &#x20;
-
-&#x20;            Q11: turn on tool digital output immediately(wait=False). &#x20;
-
-* **M116 P{} Q{}**  //control the end effector        &#x20;
-
-&#x20;       P1: xArm Gripper, Q-position
-
-&#x20;       P2: xArm Vacuum Gripper
-
-&#x20;             Q0:open(wait=True), Q1:close(wait=True),&#x20;
-
-&#x20;             Q10:open(wait=False), Q11:close(wait=False)
-
-&#x20;      P3: xArm BIO Gripper
-
-&#x20;             Q0: close, Q1: open
-
-&#x20;      P4/P5: Robotiq-2F-85 Gripper, Robotiq-2F-140 Gripper, Q:position(0\~255)
-
-&#x20;      P11: Lite6 Gripper
-
-&#x20;             Q0:close(wait=True), Q1:open(wait=True),&#x20;
-
-&#x20;             Q10:close(wait=False), Q11:open(wait=False)
-
-&#x20;      P12: Lite6 Vacuum Gripper
-
-&#x20;             Q0:close(wait=True), Q1:open(wait=True),&#x20;
-
-&#x20;             Q10:close(wait=False), Q11:open(wait=False)
+| M116     | End effector<br>    | Command      | Description                                                                                                                       |
+| -------- | ------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| M116 P1  | xArm Gripper        | M116 P1 Q0   | Q: position(-10~850)                                                                                                              |
+| M116 P2  | xArm Vacuum Gripper | M116 P2 Q0   | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
+| M116 P3  | BIO Gripper         | M116 P3 Q1   | Q0: Close</br>Q1: Open                                                                                                            |
+| M116 P4  | Robotiq Gripper     | M116 P4 Q100 | Q: position(0~255)                                                                                                                |
+| M116 P5  | Robotiq Gripper     | M116 P5 Q100 | Q: position(0~255)                                                                                                                |
+| M116 P11 | Gripper Lite        | M116 P11 Q1  | Q0: Close（synchronized with motion）</br>Q1: Open（synchronized with motion）</br>Q10: Close（immediately）</br>Q11: Open（immediately） |
+| M116 P12 | Vacuum Gripper Lite | M116 P12 Q0  | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
 
 
 
-* Code Example
+## 2.2 Code Example
 
 ```
 M62 P1            ;set CO1 to high level, wait=True
