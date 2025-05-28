@@ -91,7 +91,7 @@ You can debug and check more examples via 'UFACTORY Studio-Gcode' page.
 
 
 
-## 2.2 Code Example
+### 2.2 Code Example
 
 ```
 M62 P1            ;set CO1 to high level, wait=True
@@ -105,7 +105,7 @@ M116 P2 Q11       ;close xArm Vacuum Gripper, wait=False
 ```
 
 
-### **3. Python Example**
+## 3. Python Example
 
 
 ```python
