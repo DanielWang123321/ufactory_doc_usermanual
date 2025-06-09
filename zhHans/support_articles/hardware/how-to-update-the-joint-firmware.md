@@ -24,5 +24,5 @@ Windows版本：[xarm-tool-gui-2.17.1](http://update.ufactory.cc/xarm-tool-gui-w
 ![](../assets/joint_firmware_3.png)
 * **xArm12xx或更低版本:** 1200测试工具
 
-3. 等待2-3分钟，软件提示更新成功或失败。安装成功，按下<u>确定</u>按钮，手臂会自动重启，等待1-2分钟后，重新连接xarm-tool-gui，使能手臂，查看关节固件版本。
+1. 等待2-3分钟，软件提示更新成功或失败。安装成功，按下<u>确定</u>按钮，手臂会自动重启，等待1-2分钟后，重新连接xarm-tool-gui，使能手臂，查看关节固件版本。
 ![](../assets/joint_firmware_4.png)
