@@ -1,4 +1,4 @@
-# How to update the powerboard of controller?
+# How to update the powerboard of the controller?
 
 ## Hardware
 - AC1303
