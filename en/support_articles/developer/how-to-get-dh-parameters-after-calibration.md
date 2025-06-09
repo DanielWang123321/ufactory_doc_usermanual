@@ -6,7 +6,7 @@ We added kinematics calibration to our newer product, the actual kinematic param
 | Robot Arm Model           | Kinematics Calibration              |
 | ------------------------- | ----------------------------------- |
 | xArm1303 or lower version | No                                  |
-| xArm1304 or Lite6         | Please share the SN to support team |
+| xArm1304 or Lite6         | Please share the SN the Support Team |
 | xArm1305 or 850           | Yes                                 |
 
 
@@ -83,7 +83,7 @@ python gen_kinematics_params.py {robot_ip} {kinematics_suffix}
 ```
 
 - **robot_ip** represents the IP of the robot arm. You need to connect to the robot arm to obtain the actual parameters.
-- **kinematics_suffix** represents the suffix of the generated parameter file. If successful, the configuration file will be generated in the xarm_description/config/kinematics/user directory. If kinematics_suffix is AAA, then the corresponding file name is as follows
+- **kinematics_suffix** represents the suffix of the generated parameter file. If successful, the configuration file will be generated in the /user directory. If kinematics_suffix is AAA, then the corresponding file name is as follows
   - **xarm5:** user/xarm5_kinematics_AAA.yaml
   - **xarm6:** user/xarm6_kinematics_AAA.yaml
   - **xarm7:** user/xarm7_kinematics_AAA.yaml
