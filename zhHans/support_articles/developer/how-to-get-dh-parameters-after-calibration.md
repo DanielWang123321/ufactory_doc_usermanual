@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 ### 获取参数文件
 
-python gen_kinematics_params.py {robot_ip} {kinematics_suffix}
+python gen_kinematics_params.py [robot_ip] [kinematics_suffix]
 
 ```python
 python gen_kinematics_params.py 192.168.1.212 ip212
