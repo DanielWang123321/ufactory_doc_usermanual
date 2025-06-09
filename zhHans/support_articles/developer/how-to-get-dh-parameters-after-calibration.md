@@ -1,4 +1,12 @@
-# 如何获取标定后的DH参数
+# 如何获取校准后的运动学参数
+### 介绍
+我们在新的产品中添加了运动学校准，实际的运动学参数与我们提供的标准DH参数有所不同，`get_forward_kinematics()`API和studio的结果已经将校准考虑在内。
+| 机械臂型号          | 是否做了运动学校准 |
+| -------------- | --------- |
+| xArm1303或更低版本  | 否         |
+| xArm1304或Lite6 | 请提供SN     |
+| xArm1305或850   | 是         |
+
 
 ### Python脚本
 gen_kinematics_params.py
@@ -67,7 +75,7 @@ if __name__ == '__main__':
 
 ```
 
-### 生成参数文件
+### 获取参数文件
 ```python
 python gen_kinematics_params.py {robot_ip} {kinematics_suffix}
 ```
@@ -79,3 +87,4 @@ python gen_kinematics_params.py {robot_ip} {kinematics_suffix}
   - **xarm7:** user/xarm7_kinematics_AAA.yaml
   - **lite6:** user/lite6_kinematics_AAA.yaml
   - **uf850:** user/uf850_kinematics_AAA.yaml
+- 生成的结果不再是DH格式，它是每个连杆相对于前一个关节坐标系的6DOF(xyzrpy)变换关系，单位为米和弧度。

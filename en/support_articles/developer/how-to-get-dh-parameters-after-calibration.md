@@ -1,4 +1,14 @@
-# How to get DH after absolute accuracy calibration?
+# How to get the actual kinematic parameters after kinematics calibration?
+
+### Introduction
+We added kinematics calibration to our newer product, the actual kinematic parameters will be a little different from the nominal DH parameters we provide. The results from `get_forward_kinematics()` API and Studio have already taken the calibration into account.
+
+| Robot Arm Model           | Kinematics Calibration              |
+| ------------------------- | ----------------------------------- |
+| xArm1303 or lower version | No                                  |
+| xArm1304 or Lite6         | Please share the SN to support team |
+| xArm1305 or 850           | Yes                                 |
+
 
 ### Python Script
 gen_kinematics_params.py
@@ -79,4 +89,5 @@ python gen_kinematics_params.py {robot_ip} {kinematics_suffix}
   - **xarm7:** user/xarm7_kinematics_AAA.yaml
   - **lite6:** user/lite6_kinematics_AAA.yaml
   - **uf850:** user/uf850_kinematics_AAA.yaml
+- the form will not be DH any more, it is the 6DOF (x,y,z, roll pitch yaw) transformation relationship between adjacent joint coordinates, and the unit is in Meters and Radians. 
 
