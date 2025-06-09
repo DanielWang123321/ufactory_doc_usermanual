@@ -82,8 +82,8 @@ if __name__ == '__main__':
 python gen_kinematics_params.py {robot_ip} {kinematics_suffix}
 ```
 
-- robot_ip represents the IP of the robot arm. You need to connect to the robot arm to obtain the actual parameters.
-- kinematics_suffix represents the suffix of the generated parameter file. If successful, the configuration file will be generated in the xarm_description/config/kinematics/user directory. If kinematics_suffix is AAA, then the corresponding file name is as follows
+- **robot_ip** represents the IP of the robot arm. You need to connect to the robot arm to obtain the actual parameters.
+- **kinematics_suffix** represents the suffix of the generated parameter file. If successful, the configuration file will be generated in the xarm_description/config/kinematics/user directory. If kinematics_suffix is AAA, then the corresponding file name is as follows
   - **xarm5:** user/xarm5_kinematics_AAA.yaml
   - **xarm6:** user/xarm6_kinematics_AAA.yaml
   - **xarm7:** user/xarm7_kinematics_AAA.yaml
