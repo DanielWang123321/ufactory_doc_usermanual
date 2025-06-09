@@ -6,7 +6,7 @@ We added kinematics calibration to our newer product, the actual kinematic param
 | Robot Arm Model           | Kinematics Calibration              |
 | ------------------------- | ----------------------------------- |
 | xArm1303 or lower version | No                                  |
-| xArm1304 or Lite6         | Please share the SN the Support Team |
+| xArm1304 or Lite6         | Please share the SN to the Support Team |
 | xArm1305 or 850           | Yes                                 |
 
 
