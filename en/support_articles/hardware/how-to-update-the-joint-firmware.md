@@ -17,7 +17,7 @@ As shown in the figure below, the servo(joint) version is V4.0.23.
 | xArm1305 or 850           | ServoGD32F425App_V5.0.9_debug_20241224      | V5.0.x         |
 
 
-## how to update the joint firmware?
+## How to update the joint firmware?
 1. Connect with xarm-tool-gui.
 2. Switch to the corresponding test tool, choose <u>driver board for all joints</u>,click <u>install driver</u>, choose the corresponding bin file. Press down the Emergency stop button and release, click <u>Next</u>.
 * **1305 or 850:** 1300/850 Test tool
