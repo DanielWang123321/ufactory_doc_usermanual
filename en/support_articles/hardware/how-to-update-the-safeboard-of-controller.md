@@ -11,7 +11,7 @@ Controller:
 
 ## Firmware
 * If the safeboard is V4.6.10, you may meet C1, C19, C39, S0, S40 error, then need to update the safeboard to V4.6.12 to solve it.
-* If the safeboard is not V4.6.12, no need to do the update.
+* If the safeboard is not V4.6.10, no need to do the update.
 
 ## Download
 [xarm-tool-gui-2.16.10.zip](https://drive.google.com/drive/folders/1m96yfoUb2SrXt25c-ClZ6JqEgjaukS7e)
