@@ -29,7 +29,7 @@
 ### XYZ 移动误差
 #### xArm6 XYZ 误差图
 ![xArm6 XYZ 误差图](../assets/xarm6_xyz_stepwise_movement_error_combined.png)
-### 850 XYZ 误差图
+#### 850 XYZ 误差图
 ![850 XYZ 误差图](../assets/850_xyz_stepwise_movement_error_combined.png)
 
 ---
