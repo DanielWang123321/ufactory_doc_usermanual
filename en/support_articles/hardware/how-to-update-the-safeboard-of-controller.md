@@ -10,7 +10,7 @@ Controller:
 * DC8500
 
 ## Firmware
-* If the safeboard is V4.6.10, you may meet C1, C19, C39, S0, S40 error, then need to update the safeboard to V4.6.12 to solve it.
+* If the safeboard is V4.6.5 or V4.6.10, you may meet C1, C19, C39, S0, S40 error, then need to update the safeboard to V4.6.12 to solve it.
 * If the safeboard is not V4.6.10, no need to do the update.
 
 ## Download
