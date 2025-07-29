@@ -29,7 +29,7 @@ SDK: https://github.com/xArm-Developer
 
 * 使用 UFactory Studio 进行离线升级：
 
-下载最新的离线安装包： [xArm/UF850](https://share.weiyun.com/cL2iMSAm)     [Lite6](https://share.weiyun.com/y9NqMVAW)
+下载最新的离线安装包： [xArm/UF850](https://pan.baidu.com/s/1LgTaJasxN1Toz5l5MGbnAg?pwd=ufuf)     [Lite6](https://pan.baidu.com/s/1ltPdS0W-VreWpCD4giUqeQ?pwd=ufuf)
 
 进入设置-我的设备-检查更新，点击 "安装" 加载预先下载的离线软件包，等待系统重启，需要 2-3 分钟。
 

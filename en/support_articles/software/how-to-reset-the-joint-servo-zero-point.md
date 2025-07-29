@@ -23,7 +23,7 @@ Please contact technical support<[support@ufactory.cc](mailto:support@ufactory.c
 
 ### Joint4-xArm7/UF850
 
-1. Move all the end effectors, and set TCP payload as 0.
+1. Remove all the end effectors, and set TCP payload as 0.
 2. Move the arm back to zero position.
 
 ## Reset command
