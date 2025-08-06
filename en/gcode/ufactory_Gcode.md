@@ -80,14 +80,22 @@ You can debug and check more examples via 'UFACTORY Studio-Gcode' page.
 ### 2.1 M116 Definition
 
 | M116     | End effector<br>    | Command      | Description                                                                                                                       |
-| -------- | ------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| M116 P1  | xArm Gripper        | M116 P1 Q0   | Q: position(-10~850)                                                                                                              |
-| M116 P2  | xArm Vacuum Gripper | M116 P2 Q0   | Q0: Open（synchronized with motion）<br>Q1: Close（synchronized with motion）<br>Q10: Open（immediately）<br>Q11: Close（immediately） |
-| M116 P3  | BIO Gripper         | M116 P3 Q1   | Q0: Close<br>Q1: Open                                                                                                            |
-| M116 P4  | Robotiq Gripper     | M116 P4 Q100 | Q: position(0~255)                                                                                                                |
-| M116 P5  | Robotiq Gripper     | M116 P5 Q100 | Q: position(0~255)                                                                                                                |
-| M116 P11 | Gripper Lite        | M116 P11 Q1  | Q0: Close（synchronized with motion）<br>Q1: Open（synchronized with motion）<br>Q10: Close（immediately）<br>Q11: Open（immediately） |
-| M116 P12 | Vacuum Gripper Lite | M116 P12 Q0  | Q0: Open（synchronized with motion）<br>Q1: Close（synchronized with motion）<br>Q10: Open（immediately）<br>Q11: Close（immediately） |
+
+| M116           | End effector<br>                          | Command        | Description                                                                                                                       |
+| -------------- | ----------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| M116 P1        | xArm Gripper                              | M116 P1 Q0     | Q: position(-10~850)                                                                                                              |
+| M116 P2        | xArm Vacuum Gripper                       | M116 P2 Q0     | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
+| M116 P3        | BIO Gripper                               | M116 P3 Q1     | Q0: Close</br>Q1: Open                                                                                                            |
+| M116 P4        | Robotiq Gripper                           | M116 P4 Q100   | Q: position(0~255)                                                                                                                |
+| M116 P5        | Robotiq Gripper                           | M116 P5 Q100   | Q: position(0~255)                                                                                                                |
+| M116 P11       | Gripper Lite                              | M116 P11 Q1    | Q0: Close（synchronized with motion）</br>Q1: Open（synchronized with motion）</br>Q10: Close（immediately）</br>Q11: Open（immediately） |
+| M116 P12       | Vacuum Gripper Lite                       | M116 P12 Q0    | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
+| M116 P21       | Gripper G2</br>(synchronized with motion) | M116 P21 Q100  | Q: position</br>S: speed</br>F: force                                                                                             |
+| M116 P121      | Gripper G2</br>(immediately)              | M116 P121 Q100 | Q: position</br>S: speed</br>F: force                                                                                             |
+| M116 P22       | Vaccum Gripper</br>(Contact conncetion)   | M116 P22 Q0    | Q0: Open（synchronized with motion）</br>Q1: Close（synchronized with motion）</br>Q10: Open（immediately）</br>Q11: Close（immediately） |
+| M116 P23       | BIO Gripper G2                            | M116 P23 Q150  | Q: position 71-150</br>S: speed 500-4000</br>F: force 1-100                                                                       |
+| M116 P104/P105 | Robotiq Gripper                           | M116 P104 Q200 | Q: position 0-255</br>S: speed 0-255</br>F: force 0-255                                                                           |
+
 
 
 
