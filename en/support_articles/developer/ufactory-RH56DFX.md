@@ -1,19 +1,19 @@
 # UFACTORY Robotic Arm with Dexterous Hand RH56DFX
 
 ## Project Overview
-This project demonstrates an application based on the **UFACTORY robotic arm** and the **INSPIRE-ROBOTS humanoid dexterous hand RH56DFX series**.  
+This project demonstrates an application based on the **UFACTORY robotic arm** and the **INSPIRE-ROBOTS dexterous hands RH56DFX series**.  
 Users can quickly control the dexterous hand via **UFACTORY Studio software**, implement fast grasping and other applications.  
 
 The following videos show the dexterous hand grasping eggs and oranges, drilling cardboard with an electric drill, and controlling a computer mouse to switch web pages.
 
-[![Watch the video](https://www.youtube.com/watch?v=-fEBGHV0h9Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=-fEBGHV0h9Y)
+[![Watch the video](https://www.youtube.com/watch?v=-fEBGHV0h9Y/0.jpg)](https://www.youtube.com/watch?v=-fEBGHV0h9Y)
 
 ## Hardware Requirements
 * Robotic Arm: [UFACTORY](https://www.ufactory.cc/)- 850, xArm series (version 1305)
 * Dexterous Hand: [Inspire Robots](https://en.inspire-robots.com/)  - RH56DFX-Left / RH56DFX-Right
 ## Hardware Connection
 ### Robotic Arm End Effector Definition
-* **Plug in Conncetion**  
+* **Plug in Connection**  
 ![](assets/io.jpg)
 
 | Pin | Color | Signal      | Pin | Color | Signal            |
@@ -32,7 +32,7 @@ The following videos show the dexterous hand grasping eggs and oranges, drilling
 ![](assets/ins-pin.png)
 
 **Note:**  
-The robotic arm end and the dexterous hand cannot be directly connected. Please contact Inspire Robots for an adapter aviation connector.
+The robotic arm end and the dexterous hand cannot be directly connected. Please contact Inspire Robots for an aviation adapter connector.
 
 ## Control Methods
 ### UFACTORY Studio Control
