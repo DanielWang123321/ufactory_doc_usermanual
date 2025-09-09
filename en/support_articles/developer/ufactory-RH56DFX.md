@@ -6,7 +6,7 @@ Users can quickly control the dexterous hand via **UFACTORY Studio software**, i
 
 The following videos show the dexterous hand grasping eggs and oranges, drilling cardboard with an electric drill, and controlling a computer mouse to switch web pages.
 
-[![Watch the video](https://www.youtube.com/watch?v=-fEBGHV0h9Y/0.jpg)](https://www.youtube.com/watch?v=-fEBGHV0h9Y)
+[![Watch the video](https://i9.ytimg.com/vi/-fEBGHV0h9Y/mqdefault.jpg?v=68bf959e&sqp=CKiDgMYG&rs=AOn4CLBH876lEEp5e7S1Wcipm3y8GuvrNA)](https://www.youtube.com/watch?v=-fEBGHV0h9Y)
 
 ## Hardware Requirements
 * Robotic Arm: [UFACTORY](https://www.ufactory.cc/)- 850, xArm series (version 1305)
