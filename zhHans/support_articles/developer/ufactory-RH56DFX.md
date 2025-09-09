@@ -6,7 +6,7 @@
 
 以下视频使用灵巧手抓取鸡蛋和橙子，到用电钻钻纸板，以及控制电脑鼠标切换网页。
 
-[![Watch the video](https://www.youtube.com/watch?v=-fEBGHV0h9Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=-fEBGHV0h9Y)
+[![Watch the video](https://i9.ytimg.com/vi/-fEBGHV0h9Y/mqdefault.jpg?v=68bf959e&sqp=CKiDgMYG&rs=AOn4CLBH876lEEp5e7S1Wcipm3y8GuvrNA)](https://www.youtube.com/watch?v=-fEBGHV0h9Y)
 
 
 ## 硬件要求
@@ -16,7 +16,7 @@
 
 ## 硬件连接
 ### 机械臂末端定义
-* **接触式**
+* **插接式**
 ![](assets/io.jpg)
 
 | 线序  | 颜色  | 信号       | 线序  | 颜色  | 信号         |
@@ -70,5 +70,6 @@ code = arm.set_tgpio_modbus_baudrate(115200)
 ```python
 code, res_data = arm.getset_tgpio_modbus_data(modbus, timeout=100)
 ```
+
 
 示例：[set_yinshi_rh56_gripper.py](https://github.com/xArm-Developer/xArm-Python-SDK/blob/master/example/wrapper/thridparty/set_yinshi_rh56_gripper.py)
