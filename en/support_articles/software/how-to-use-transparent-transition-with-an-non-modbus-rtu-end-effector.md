@@ -6,11 +6,13 @@ When the end tool supports RS-485 communication but not the standard Modbus RTU 
 ## Hardware Connection  
 The pin definition diagram of the robotic arm end effector is as follows; the following connections are required:  
 ![](assets/io.jpg)  
-* pin1 & pin2: 24V  
-* pin3 & pin4: GND  
-* pin5: RS485A  
-* pin6: RS485B  
 
+Need to connect 2×24V, 2×GND, RS485A, RS485B.
+| Color | Singal      | Color  | Singal  |
+| ----- | ----------- | ------ | ------- |
+| Brown(PIN1) | +24V(Power) | White(PIN3)  | GND |
+| Blue(PIN2)  | +24V(Power) | Green(PIN4)  | GND |
+| Pink(PIN5)  | RS485-A     | Yellow(PIN6) | RS485-B |
 
 ## Control  
 * The end effector baud rate and the end tool baud rate must be consistent. The default end effector baud rate is 2M.  
