@@ -28,7 +28,7 @@ Optional parameters:
 * Baud Rate;  
 * Protocol: Select **Transparent Transmission**;  
 * Timeout Period;  
-![](assets/rs485.png)  
+![](assets/RS485.png)  
 
 **Note: Click the Save button after modifying the parameters.**  
 
